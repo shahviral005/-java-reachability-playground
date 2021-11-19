@@ -1,4 +1,4 @@
-# Run workflow each time code is pushed to your repository.
+# Run workflow each time code is pushed to your repository1.
 
 on: push
 jobs:
