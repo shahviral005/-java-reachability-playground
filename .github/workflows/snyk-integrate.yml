@@ -5,7 +5,7 @@ jobs:
  build:
    runs-on: ubuntu-latest
    env:
-    SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+    SNYK_TOKEN: ${{ secrets.SYNK_TOKEN }}
    steps:
      - uses: actions/checkout@master
      - uses: snyk/actions/setup@master
